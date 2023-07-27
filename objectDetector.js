@@ -16,6 +16,8 @@ function preload() {
  
   detector = ml5.objectDetector('cocossd');
   console.log('detector object is loaded');
+
+//   video.hide();
 }
 
 
