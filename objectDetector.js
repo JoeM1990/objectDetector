@@ -36,6 +36,8 @@ function setup() {
     }
   });
 
+  video.hide();
+
 }
 
 
