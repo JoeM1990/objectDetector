@@ -36,6 +36,7 @@ function setup() {
       console.log('video element is ready! Click "Start Detecting" to see the magic!');
     }
   });
+
 }
 
 
