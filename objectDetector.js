@@ -38,6 +38,7 @@ function setup() {
 
   video.hide();
 
+  
 }
 
 
@@ -114,9 +115,9 @@ function toggleDetecting() {
   if (!video || !detector) return;
   if (!detecting) {
     detect();
-    toggleDetectingEl.innerText = 'Stop Detecting';
+    toggleDetectingEl.innerText = 'Stop';
   } else {
-    toggleDetectingEl.innerText = 'Start Detecting';
+    toggleDetectingEl.innerText = 'Start';
   }
   detecting = !detecting;
 }
