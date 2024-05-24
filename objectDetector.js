@@ -16,8 +16,6 @@ function preload() {
  
   detector = ml5.objectDetector('cocossd');
   console.log('detector object is loaded');
-
-
 }
 
 
@@ -77,7 +75,7 @@ function drawLabel(object) {
  
   fill('white');
  
-  textSize(24);
+  textSize(25);
  
   text(object.label, object.x + 10, object.y + 24);
 }
